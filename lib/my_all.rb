@@ -1,4 +1,4 @@
-require 'pry'
+
  def my_all?(collection)
   i = 0
   block_return_values = []
@@ -13,5 +13,3 @@ if block_return_values.include?(false)
   else
     true
   end
-end
-end
